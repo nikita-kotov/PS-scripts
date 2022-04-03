@@ -1,4 +1,5 @@
-#This script get all managers from special group, find all VM which belongs to these managers and their direct report workers and create report about resource usage (include snapshots older than 30 days and thick hard drives) and life cycle (we use custom attributes for this)
+#This script get all managers from special group, find all VM which belongs to these managers and their direct report workers and send them report about resource usage
+#(include snapshots older than 30 days and thick hard drives) and life cycle (we use custom attributes for track this)
 
 Import-Module VMware.PowerCLI
 Import-Module activedirectory
